@@ -6,6 +6,10 @@ This directory is the shared root for agentic programming work.
 
 Use [.skills/](.skills/) as the directory for local agent skills available from this root. Before starting work, read the relevant skill's `SKILL.md` and follow its activation notes.
 
+## Skills
+
+- When you are asked to create or update a skill, read and follow `.skills/skill-writing/SKILL.md`.
+
 ## Working Rules
 
 - Treat each child directory as an independent project unless its own `AGENTS.md` says otherwise.
