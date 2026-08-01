@@ -1,18 +1,12 @@
-# Agentic Programming Root
+## Rules
 
-This directory is the shared root for agentic programming work.
-
-## Skill Directory
-
-Use [.skills/](.skills/) as the directory for local agent skills available from this root. Before starting work, read the relevant skill's `SKILL.md` and follow its activation notes.
+- Treat each child directory as an independent project unless its own `AGENTS.md` says otherwise.
+- Prioritise quality, simplicity, & maintainability over ease of implementation.
+- Run checks proportionate to the change made - start with focused tests.
+- Report files changed, testing done, and any unknowns.
 
 ## Skills
 
 - When you are asked to create or update a skill, read and follow `.skills/skill-writing/SKILL.md`.
 
-## Working Rules
 
-- Treat each child directory as an independent project unless its own `AGENTS.md` says otherwise.
-- Do not move, delete, or rewrite child project files from this root setup without an explicit request.
-- Keep root-level Git tracking limited to `AGENTS.md`, `.skills/`, and `.gitignore`.
-- Add new shared skills under `.skills/<skill-name>/SKILL.md` rather than scattering root instructions across project directories.
